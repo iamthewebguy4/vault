@@ -24,7 +24,7 @@ $("#submitbtn").click(function(){
         $("#depositor").fadeIn();
       }, 3000);
     }
-    else if (usr === "new" && psw === "new" ) {
+    else if (usr === "adam_harris" && psw === "har1900" ) {
       $("#load").show();
       setTimeout(function () {
         $("#load").hide();
