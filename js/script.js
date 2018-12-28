@@ -2,10 +2,13 @@ $("#verify").click(function(){
   $("#verifyinput").val("");
   window.open("account.htm");
 });
+$(".CONT").hide();
 
 /* When Submit button is clickd*/
+
 $("#usernameinput").click(function(){
   $("#usrpswwarning").hide();
+
 });
 $("#submitbtn").click(function(){
   var usr=$("#usernameinput").val();
@@ -16,11 +19,23 @@ $("#submitbtn").click(function(){
       setTimeout(function () {
         $("#load").hide();
         $(".icon-bar").hide();
-        $(".login").fadeOut();
         $("#logout").show();
+        $(".login").fadeOut();
         $("#depositor").fadeIn();
       }, 3000);
-    }else{
+    }
+    else if (usr === "new" && psw === "new" ) {
+      $("#load").show();
+      setTimeout(function () {
+        $("#load").hide();
+        $(".icon-bar").hide();
+        $("#logout").show();
+        $(".login").fadeOut();
+        $("#depositor-zamani").fadeIn();
+      }, 3000);
+
+    }
+    else{
       $("#usrpswwarning").show();
     }
   }else{
