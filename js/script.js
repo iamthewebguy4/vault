@@ -24,7 +24,7 @@ $("#submitbtn").click(function(){
         $("#depositor").fadeIn();
       }, 3000);
     }
-    else if (usr === "adam_harin" && psw === "har1900" ) {
+    else if (usr === "adam_harim" && psw === "har1900" ) {
       $("#load").show();
       setTimeout(function () {
         $("#load").hide();
@@ -39,7 +39,6 @@ $("#submitbtn").click(function(){
       $("#usrpswwarning").show();
     }
   }else{
-    alert("satan");
     $("#nonewarning").show();
   }
 });
