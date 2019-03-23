@@ -1,198 +1,144 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Vault | Royal Turin Vault</title>
-  <link rel="stylesheet" href="css/style.css">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<body>
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <a id="logout" href="account.htm"><span class="glyphicon glyphicon-log-out"></span> Log-out</a>
-        </button>
-        <a class="navbar-brand" href="index.html">
-          Royal Turin <span> Vault </span>
-        </a>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li><a href="index.html">Home</a></li>
+.navbar-brand {
+  font-family: sans-serif!important;
+  letter-spacing: 2px;
+  color: black!important;
+}
+.navbar-brand span{
+  font-size: 150%;
+  color: green;
+}
+.item{
+  font-size: 150%!important;
+  color: red!important;
+  letter-spacing: 2px;
+}
+#homepage p{
+  color: #9d9d9d;
+  font-size: 120%;
+}
+.card{
+  text-align: center;
+}
 
-          <li><a href="aboutus.html">About Us</a></li>
-          <li><a href="service.html">Services</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+#cols{
+  margin-top: 80px;
+}
 
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li id="logout"><a  href="account.htm"><span class="glyphicon glyphicon-log-out"></span> Log-out</a></li>
-        </ul>
-
-      </div>
-    </div>
-
-  </nav>
+#trackbox{
+  background: rgb(105,165,20);
+  text-align: center;
+  padding: 30px 0;
+}
+input[type="text"]{
+  padding: 15px 5px;
+  text-align: center;
+}
+input[type="submit"]{
+  margin-left: 10px;
+  width: 100px;
+}
 
 
+/*****************************************************/
+/*account page*/
+#load{
+  width: 32%!important;
+  display: none;
+}
+.login{
+  margin-top: 100px;
+}
+.login p{
+  font-family: arial;
+  letter-spacing: 1px;
+  font-size: 130%;
+  margin-top: 20px;
+}
+.login #box{
+  border: 1px solid #9d9d9d;
+  width: 30%;
+  text-align: left;
+  padding: 20px 20px;
+}
+.login input{
+  width: 100%;
+  padding: 5px 5px;
+  text-align: left;
+}
+.login input[type="submit"]{
+  text-align: center;
+  margin-top: 20px;
+}
+#depositor{
+  display: none;
+  padding: 50px 0;
+}
+#depositor p{
+  color: #9d9d9d;
+}
+#depoinfo{
+  width: 50%;
+  padding: 100px 0;
+}
+#depoinfo input{
+  text-align: left;
+  color: red;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+small,br{
+  color: red;
+  display: none;
+}
+#logout{
+  display: none;
+}
 
 
-  <div class="container">
-
-    <center>
-      <div class="login">
-        <img src="img/lock.png" alt="security" style="width: 5%;">
-        <p>Enter your security code to access your account</p>
-        <div class="container" id="box">
-
-
-
-          <div class="form-group">
-            <label for="pwd">Security code:</label>
-            <input id="passwordinput" type="password" class="form-control" id="pwd">
-          </div>
-          <small id="nonewarning">Please fill in all inputs</small>
-          <br/>
-          <small id="usrpswwarning">Username/password is incorrect</small>
-          <input id="submitbtn" type="submit" name="submit" value="Sign in" class="btn btn-success btn-block">
-          <center><img src="img/load.gif" id="load"></center>
-
-        </div>
-
-
-      </div>
-
-      <div class="container CONT" id="depositor">
-        <h2>DEPOSITOR</h2>
-        <h2 style="margin-bottom: 50px;">INFORMATION</h2>
-        <p>Note: All debts must be paid before all items will be released</p>
-        <p>In the absence of the depositor, only the next of kin or beneficiary has the
-          mandate to claim the consignment.
-        </p>
-        <p>
-          At least two days of notification prior to the collection and balance will be calculated
-          and paid on the day of collection
-        </p>
-
-
-
-        <div class="container" id="depoinfo">
-          <div class="form-group">
-            <label for="usr"> Name of Depositor:</label>
-            <input type="text" class="form-control" id="usr" value="Clifford David" disabled>
-          </div>
-          <div class="form-group">
-            <label for="usr">Nationality:</label>
-            <input type="text" class="form-control" id="usr" value="Dubai" disabled >
-          </div>
-          <div class="form-group">
-            <label for="usr">Purpose of Deposit:</label>
-            <input type="text" class="form-control" id="usr" value="Safe-Keeping / Security" disabled >
-          </div>
-          <div class="form-group">
-            <label for="usr">Date of Deposit:</label>
-            <input type="text" class="form-control" id="usr" value="10/06/2012" disabled >
-          </div>
-          <div class="form-group">
-            <label for="usr">Items deposited</label>
-            <input type="text" class="form-control" id="usr" value="397Kg of 24karat(99.98) AU Metal Gold" disabled >
-          </div>
-          <div class="form-group">
-            <label for="usr">Serial Number</label>
-            <input type="text" class="form-control" id="usr" value="NV71301AUS" disabled >
-          </div>
-          <div class="form-group">
-            <label for="usr">Security Code</label>
-            <input type="text" class="form-control" id="usr" value="NV71301AUS" disabled >
-          </div>
-
-          <div class="form-group">
-            <label for="usr">Container Value</label>
-            <input type="text" class="form-control" id="usr" value="$3,100,450.00" disabled >
-          </div>
-
-          <a  href="account.htm"><span class="glyphicon glyphicon-log-out"></span> Log-out</a>
-
-        </div>
-      </div>
-
-      <!---------------------------------------------------------------------------->
-      <!-- Zamani -->
-      <div class="container  CONT" id="depositor-zamani">
-
-        <h2>DEPOSITOR</h2>
-        <h2 style="margin-bottom: 50px;">INFORMATION</h2>
-        <p>Note: All debts must be paid before all items will be released</p>
-        <p>In the absence of the depositor, only the next of kin or beneficiary has the
-          mandate to claim the consignment.
-        </p>
-        <p>
-          At least two days of notification prior to the collection and balance will be calculated
-          and paid on the day of collection
-        </p>
-
-        <p style="color: red;">
-
-        </p>
+/***************************************************/
+/*About Us*/
+#col1{
+  background-image: url("img/ss.jpg");
+  height: 300px;
+}
+/***************************************************/
+/*Contact Us*/
+.cont p{
+  color: #9d9d9d!important;
+}
 
 
 
-        <div class="container" id="depoinfo">
-          <div class="form-group">
-            <label for="usr"> Name of Depositor:</label>
-            <input type="text" class="form-control" id="usr" value="Michael Myers" disabled>
-          </div>
-          <div class="form-group">
-            <label for="usr">Nationality:</label>
-            <input type="text" class="form-control" id="usr" value="USA" disabled >
-          </div>
-          <div class="form-group">
-            <label for="usr">Purpose of Deposit:</label>
-            <input type="text" class="form-control" id="usr" value="Safe-Keeping / Security" disabled >
-          </div>
-          <div class="form-group">
-            <label for="usr">Next of kin:</label>
-            <input type="text" class="form-control" id="usr" value="Kymberly Myers" disabled >
-          </div>
-          <div class="form-group">
-            <label for="usr">Date of Deposit:</label>
-            <input type="text" class="form-control" id="usr" value="07/02/2013" disabled >
-          </div>
-          <div class="form-group">
-            <label for="usr">Items deposited</label>
-            <input type="text" class="form-control" id="usr" value="180kilos (Standard Gold Bar)" disabled >
-          </div>
-          <div class="form-group">
-            <label for="usr">Serial Number</label>
-            <input type="text" class="form-control" id="usr" value="00238" disabled >
-          </div>
-          <div class="form-group">
-            <label for="usr">Security Code</label>
-            <input type="text" class="form-control" id="usr" value="GWICL/FN/RT/13" disabled >
-          </div>
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #depoinfo{
+    width: 90%;
+  }
+  .login{
+    margin-top: 10px;
+  }
+  .login img{
+    width: 17%!important;
+  }
+  .login #box{
+    width: 95%!important;
+  }
 
-          <div class="form-group">
-            <label for="usr">Container Value</label>
-            <input type="text" class="form-control" id="usr" value="$5,000,000.00" disabled >
-          </div>
+  #depositor{
+    padding: 10px 0;
+  }
+  .navbar-brand{
+    font-size: 17px!important;
+  }
 
-          <a  href="account.htm"><span class="glyphicon glyphicon-log-out"></span> Log-out</a>
+  #footer .col-sm-3{
+    margin-bottom: 30px;
+  }
 
-        </div>
-      </div>
-    </center>
+}
 
-
-  </div>
-  <script type="text/javascript" src="js/script.js">
-
-  </script>
-</body>
-</html>
+#footer{
+  margin-top: 30px;
+  background: #31383d;
+  color: #fff;
+}
