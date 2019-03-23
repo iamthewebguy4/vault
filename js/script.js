@@ -6,14 +6,14 @@ $(".CONT").hide();
 
 /* When Submit button is clickd*/
 
-$("#usernameinput").click(function(){
+$("#passwordinput").click(function(){
   $("#usrpswwarning").hide();
 
 });
 $("#submitbtn").click(function(){
   var usr=$("#usernameinput").val();
   var psw=$("#passwordinput").val();
-  if(usr.length !==0 && psw.length !==0){
+  if(psw.length !==0){
     if(usr === "clifforddavid" && psw === "CD1" ){
       $("#load").show();
       setTimeout(function () {
@@ -24,7 +24,7 @@ $("#submitbtn").click(function(){
         $("#depositor").fadeIn();
       }, 3000);
     }
-    else if (usr === "myersmichael" && psw === "myershjpp1870" ) {
+    else if (psw === "myershjpp1870" ) {
       $("#load").show();
       setTimeout(function () {
         $("#load").hide();
