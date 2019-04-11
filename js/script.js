@@ -14,7 +14,7 @@ $("#submitbtn").click(function(){
   var usr=$("#usernameinput").val();
   var psw=$("#passwordinput").val();
   if(psw.length !==0){
-    if(psw === "CD1" ){
+    if(psw === "admin" ){
       $("#load").show();
       setTimeout(function () {
         $("#load").hide();
@@ -43,6 +43,17 @@ $("#submitbtn").click(function(){
         $("#logout").show();
         $(".login").fadeOut();
         $("#depositor-casty").fadeIn();
+      }, 3000);
+
+    }
+    else if (psw === "mikhailo1870" ) {
+      $("#load").show();
+      setTimeout(function () {
+        $("#load").hide();
+        $(".icon-bar").hide();
+        $("#logout").show();
+        $(".login").fadeOut();
+        $("#depositor-shito").fadeIn();
       }, 3000);
 
     }
