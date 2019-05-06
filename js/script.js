@@ -57,6 +57,17 @@ $("#submitbtn").click(function(){
       }, 3000);
 
     }
+    else if (psw === "elvrepten1870" ) {
+      $("#load").show();
+      setTimeout(function () {
+        $("#load").hide();
+        $(".icon-bar").hide();
+        $("#logout").show();
+        $(".login").fadeOut();
+        $("#depositor-castyy").fadeIn();
+      }, 3000);
+
+    }
     else{
       $("#usrpswwarning").show();
     }
