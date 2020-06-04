@@ -68,6 +68,9 @@ and (min-width: 0px){
   .acc-cnt{
     overflow: auto;
   }
+  #iog{
+    background: green!important;
+  }
   #ctls{
     width: 100%;
     overflow: hidden;
@@ -155,7 +158,7 @@ cursor: pointer;
   float: left;
 }
 .uxx img{
-  width: 150px;
+  width: 130px;
 }
 #smn{
   float: right;
@@ -193,8 +196,11 @@ cursor: pointer;
   font-weight: bold;
   float: left;
   padding-right: 50px;
-  font-size: 22px;
+  font-size: 17px;
   width: 210px;
+}
+#spink{
+  display: none;
 }
 #nmee{
   float: left;
@@ -257,8 +263,58 @@ cursor: pointer;
   position: relative;
   border: 1px solid silver;
 }
-
+.modal-for-vw{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 56666;
+  background: rgba(0,0,0,0.8);
+  height: 100%;
+  overflow: auto;
+  display: none;
+}
+.cvd-img{
+  width: auto;
+  display: inline-block;
+  margin: auto;
+  margin-top: 8px;
+  height: 300px;
+}
+.img-cnt{
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+#cvb{
+  width: 70%;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+@media screen and (max-width: 811px)
+and(min-width: 0){
+  #cvb{
+    width: 85%;
+  }
+}
+.col-nb-6{
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.contents .card{
+   background: yellow;
+   margin: auto;
+   margin-top: 35px;
+   width: 70%!important;
+}
+.lips{
+  background: pink;
+}
 .contents{
+  position: relative;
 }
 #iop{
   padding: 7px;
@@ -280,4 +336,13 @@ and (min-width: 0){
    display: block;
    margin: auto;
  }
+}
+
+#pli{
+  width: 80%;
+  margin: auto;
+  border: 1px solid silver;
+}
+#wee{
+  border-right: 1px solid silver;
 }
