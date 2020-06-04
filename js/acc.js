@@ -49,10 +49,26 @@ $("#lme-in-btn").click(
   function(){
     var email = $("#email").val();
     var password = $("#pwd").val();
-    if (email === "88" && password ==="88") {
-      $(".login").hide();
-      $(".acc-cnt").fadeIn();
-    } else {
+    if (email === "johnw3004@gmail.com" && password ==="amanda4Lyf" || email === "johnw3004@gmail.com " && password ==="amanda4Lyf") {
+      $("#spink").show();
+      setTimeout(
+        function(){
+          $("#spink").hide();
+          $(".login").hide();
+          $(".acc-cnt").fadeIn();
+        }, 4000
+      );
+    }
+    if (email === "1" && password ==="1") {
+      $("#spink").show();
+      setTimeout(
+        function(){
+          $("#spink").hide();
+          $(".login").hide();
+          $(".acc-cnt").fadeIn();
+        }, 4000
+      );
+    }else {
       // WARNING: error;
       $("#error").show();
       setTimeout(
@@ -75,5 +91,16 @@ $(".menu-psn").click(
       menu_check = 0;
       $("#ctls").css("height","inherit");
     }
+  }
+);
+
+$("#modal-q").click(
+  function(){
+    $(".modal-for-vw").fadeIn();
+  }
+);
+$("#modal-x").click(
+  function(){
+    $(".modal-for-vw").fadeOut();
   }
 );
