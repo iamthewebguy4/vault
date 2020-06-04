@@ -62,6 +62,7 @@ and (min-width: 0px){
   #ctls{
     width: 100%;
     overflow: hidden;
+    height: 422px!important;
   }
   #x-ct{
     width: 95%!important;
