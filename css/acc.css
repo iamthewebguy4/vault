@@ -54,8 +54,17 @@ header{
   top: 0;
   position: relative;
 }
+.contents th{
+  border: 1px solid silver;
+}
 @media screen and (max-width: 875px)
 and (min-width: 0px){
+  .iq{
+    overflow: auto;
+  }
+  .contents table{
+    width: 800px;
+  }
   .acc-cnt{
     overflow: auto;
   }
@@ -245,7 +254,8 @@ cursor: pointer;
 #rf td{
   text-align: center;
   color: red;
-  display: relative;
+  position: relative;
+  border: 1px solid silver;
 }
 
 .contents{
