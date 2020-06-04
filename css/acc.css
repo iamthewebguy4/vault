@@ -293,6 +293,12 @@ cursor: pointer;
   border-radius: 5px;
   margin-top: 10px;
 }
+@media screen and (max-width: 691px)
+and (min-width: 0){
+  #cvb{
+    width: 95%;
+  }
+}
 @media screen and (max-width: 811px)
 and(min-width: 0){
   #cvb{
@@ -342,6 +348,12 @@ and (min-width: 0){
   width: 80%;
   margin: auto;
   border: 1px solid silver;
+}
+@media screen and (max-width: 550px)
+and (min-width: 0){
+  #pli{
+    width: 95%;
+  }
 }
 #wee{
   border-right: 1px solid silver;
