@@ -25,6 +25,9 @@
             <div class="col-sm-10">
               <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
             </div>
+            <div class="" style="text-align: center; font-size: 20px; margin-top: 20px;" id="spink">
+               <i class="fa fa-spinner fa-spin"></i>
+            </div>
           </div>
           <div class="form-group">
             <div class="col-sm-offset-2 col-sm-10">
@@ -37,6 +40,8 @@
             <small id="error" class="form-text text-muted text-danger">Incorrect login details</small>
             <div class="col-sm-offset-2 col-sm-10">
               <button type="submit" class="btn btn-primary" id="lme-in-btn">Submit</button>
+
+
             </div>
           </div>
         </form>
@@ -69,7 +74,7 @@
               <img src="vaultpic.jpeg" alt="">
                <span id="smn">
                  <h5 id="dn">John Hudson</h5>
-                 <h5 id="em">EMAIL: <small>dfreyer6029@gmail.com </small> </h5>
+                 <h5 id="em">EMAIL: <small>johnw3004@gmail.com </small> </h5>
                </span>
             </div>
           </div>
@@ -93,7 +98,15 @@
                   email address
                 </span>
                 <span id="nmee">
-                   <small id="lp">dfreyer6029@gmail.com </small>
+                   <small id="lp">johnw3004@gmail.com </small>
+                </span>
+              </li>
+              <li class="po">
+                <span id="nme">
+                  next of kin
+                </span>
+                <span id="nmee">
+                   <small id="lp">Amanda Hudson </small>
                 </span>
               </li>
               <li class="po">
@@ -101,7 +114,7 @@
                   initial deposit
                 </span>
                 <span id="nmee">
-                   <small id="lp">dfreyer6029@gmail.com </small>
+                   <small id="lp">2000-02-21</small>
                 </span>
               </li>
               <li class="po">
@@ -143,14 +156,14 @@
                 </thead>
                 <tbody id="rf">
                   <tr>
-                    <td id="pp"> <img src="vv.png" alt=""></td>
-                    <td>52 Kgs Gold Bars <br> <a href="#">View Details</a> </td>
+                    <td id="pp"> <img src="vv.jpeg" alt=""></td>
+                    <td>55.28ct  Diamond <br> <a class="btn btn-primary" id="modal-q">View Details</a> </td>
                     <td>VIP 30" X 20" X 19" </td>
                     <td>1 </td>
-                    <td>@3 Months </td>
-                    <td> 1500 </td>
+                    <td>@5 Years </td>
+                    <td> 1,158.60 </td>
                     <td> <i class="fa fa-warning"></i></td>
-                    <td> 2019-07-04 </td>
+                    <td> 2015-02-21 </td>
                   </tr>
                 </tbody>
 
@@ -173,7 +186,6 @@
                     <th scope="col">Issue Date</th>
                     <th scope="col">Release</th>
                     <th scope="col">Extension</th>
-                    <th scope="col">Interval</th>
                     <th scope="col">Days Left</th>
                     <th scope="col">Status</th>
                     <th scope="col">Date</th>
@@ -182,13 +194,21 @@
                 <tbody>
                   <tr>
                     <td id="pp"> NPV3568  </td>
-                    <td> 2019-07-04  </td>
-                    <td> 2019-09-04  </td>
+                    <td> 2015-02-21  </td>
+                    <td> 2020-06-02  </td>
                     <td>  </td>
-                    <td>62 days  </td>
-                    <td> -274 days </td>
+                    <td> -2,295 days </td>
                     <td id="iop"> Expired</td>
-                    <td> 2020-05-21 15:57:20 pm  </td>
+                    <td> 2015-05-21 15:57:20 pm  </td>
+                  </tr>
+                  <tr>
+                    <td id="pp"> NPV2098  </td>
+                    <td> 2020-03-03  </td>
+                    <td> 2020-03-03  </td>
+                    <td>  </td>
+                    <td> 0 days </td>
+                    <td id="iog" style="background:green; color: #fff; text-align:center;"> Complete</td>
+                    <td> 2020-06-03 14:25:10 pm  </td>
                   </tr>
                 </tbody>
 
@@ -215,10 +235,16 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td id="pp"> US$1500   </td>
-                    <td> US$4500   </td>
-                    <td> 52 Kgs Gold Bars   </td>
-                    <td>  Thursday 21st of May 2020 04:07:47 PM </td>
+                    <td id="pp"> US$17,379   </td>
+                    <td> US$5,793   </td>
+                    <td> Yellow Diamond   </td>
+                    <td>  Thursday 21st of February 2000 04:07:47 PM </td>
+                  </tr>
+                  <tr>
+                    <td id="pp"> US$5,793   </td>
+                    <td> US$0.00   </td>
+                    <td> Yellow Diamond   </td>
+                    <td>  Wednesday 03rd of June 2020 12:32:50 PM </td>
                   </tr>
                 </tbody>
 
@@ -245,10 +271,16 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td id="pp"> US$1500   </td>
-                    <td> US$4500   </td>
-                    <td> 52 Kgs Gold Bars   </td>
-                    <td>  Thursday 21st of May 2020 04:07:47 PM </td>
+                    <td id="pp"> US$17,379   </td>
+                    <td> US$5,793   </td>
+                    <td> Yellow Diamond   </td>
+                    <td>  Thursday 21st of February 2000 04:07:47 PM </td>
+                  </tr>
+                  <tr>
+                    <td id="pp"> US$5,793   </td>
+                    <td> US$0.00   </td>
+                    <td> Yellow Diamond   </td>
+                    <td>  Wednesday 03rd of June 2020 12:32:50 PM </td>
                   </tr>
                 </tbody>
 
@@ -293,6 +325,113 @@
 
 
         </div>
+    </div>
+    <div class="modal-for-vw">
+      <div class="card"  id="cvb">
+        <div class="card-body">
+          <div class="img-cnt">
+            <img src="vv.jpeg" class="cvd-img" alt="Item Deposited">
+            <img src="vv.jpeg" class="cvd-img" alt="Item Deposited">
+          </div>
+          <br><br>
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Purpose
+            </div>
+            <div class="col-nb-6">
+              Safe keeping
+            </div>
+          </div>
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Box Type
+            </div>
+            <div class="col-nb-6">
+              VIP 30" X 20" X 19"
+            </div>
+          </div>
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Cost Per Box
+            </div>
+            <div class="col-nb-6">
+              $500
+            </div>
+          </div>
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Number of Boxes
+            </div>
+            <div class="col-nb-6">
+              1
+            </div>
+          </div>
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Duration
+            </div>
+            <div class="col-nb-6">
+              3 Months. From : 2019-07-04 To 2019-09-04
+              0Year + 9months Penalty Fee : $4500
+              New Month: 9 Penalty Fee 4500
+            </div>
+          </div>
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Total Cost
+            </div>
+            <div class="col-nb-6">
+              $1500 0Year + 9months Penalty Fee : $4500
+            </div>
+          </div>
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Amount Paid
+            </div>
+            <div class="col-nb-6">
+              $1500
+            </div>
+          </div>
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Balance
+            </div>
+            <div class="col-nb-6">
+              $4500
+            </div>
+          </div>
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Narration
+            </div>
+            <div class="col-nb-6">
+              Safe Keeping
+            </div>
+          </div>
+
+          <div class="row" id="pli">
+            <div class="col-nb-6" id="wee">
+              Custodian Reference
+            </div>
+            <div class="col-nb-6">
+              NPV3568
+            </div>
+          </div>
+
+          <div class="container" style="width: 84%; text-align: right;">
+            <br>
+            <button type="button" name="button" class="btn btn-primary" id="modal-x">Close</button>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script type="text/javascript" src="js/acc.js">
