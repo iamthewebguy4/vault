@@ -70,6 +70,23 @@ and (min-width: 0px){
   .menu-psn{
     display: show!important;
   }
+  #nme{
+    font-size: 90%!important;
+    width: 45%!important;
+  }
+  #nmee{
+    font-size: 90%!important;
+  }
+  #smn{
+    float: left!important;
+    padding-left: 0px!important;
+  }
+  .profile small{
+    font-size: 100%!important;
+  }
+  .uxx img{
+    display: block;
+  }
 }
 
 #x-ct{
