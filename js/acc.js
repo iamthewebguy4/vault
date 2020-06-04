@@ -1,4 +1,5 @@
 $(".profile").fadeIn();
+$(".menu-psn").hide();
 
 $(".profile-btn").click(
   function(){
@@ -59,6 +60,20 @@ $("#lme-in-btn").click(
           $("#error").hide();
         }, 3000
       );
+    }
+  }
+);
+
+var menu_check = 0;
+$(".menu-psn").click(
+
+  function(){
+    if (menu_check === 0) {
+      menu_check = 1;
+      $("#ctls").css("height","57px");
+    } else {
+      menu_check = 0;
+      $("#ctls").css("height","inherit");
     }
   }
 );
