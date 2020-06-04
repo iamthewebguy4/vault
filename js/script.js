@@ -24,7 +24,7 @@ $("#submitbtn").click(function(){
         $("#depositor").fadeIn();
       }, 3000);
     }
-    else if (psw === "Iagbekohjpp1870" ) {
+    else if (psw === "Iagbekohjpp1000" ) {
       $("#load").show();
       setTimeout(function () {
         $("#load").hide();
