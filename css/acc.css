@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
 }
+
 #logot{
   width: 200px;
   margin: auto;
@@ -53,6 +54,24 @@ header{
   top: 0;
   position: relative;
 }
+@media screen and (max-width: 875px)
+and (min-width: 0px){
+  .acc-cnt{
+    overflow: auto;
+  }
+  #ctls{
+    width: 100%;
+    overflow: hidden;
+  }
+  #x-ct{
+    width: 95%!important;
+    margin: auto;
+  }
+  .menu-psn{
+    display: show!important;
+  }
+}
+
 #x-ct{
   width: 70%;
   overflow: hidden;
@@ -64,8 +83,16 @@ header{
   width: 100%;
   display: block;
   overflow: hidden;
+  position: relative;
 }
+.psn i{
+  position: absolute;
+  right: 0;
+  margin: 10px;
+  top: 5px;
+  font-size: 20px;
 }
+
 #nou{
   color: #fff;
   margin-top: 5px;
@@ -216,4 +243,13 @@ cursor: pointer;
 }
 .profile small{
   font-size: 17px;
+}
+
+@media screen and (max-width: 506px)
+and (min-width: 0){
+ .uxx img{
+   width: 95%;
+   display: block;
+   margin: auto;
+ }
 }
