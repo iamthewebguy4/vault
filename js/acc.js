@@ -59,7 +59,7 @@ $("#lme-in-btn").click(
         }, 4000
       );
     }
-    if (email === "1" && password ==="1") {
+    elseif (email === "1" && password ==="1") {
       $("#spink").show();
       setTimeout(
         function(){
