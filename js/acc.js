@@ -1,5 +1,6 @@
 $(".profile").fadeIn();
 $(".menu-psn").hide();
+$("#error").hide();
 
 $(".profile-btn").click(
   function(){
@@ -59,16 +60,7 @@ $("#lme-in-btn").click(
         }, 4000
       );
     }
-    elseif (email === "1" && password ==="1") {
-      $("#spink").show();
-      setTimeout(
-        function(){
-          $("#spink").hide();
-          $(".login").hide();
-          $(".acc-cnt").fadeIn();
-        }, 4000
-      );
-    }else {
+    else {
       // WARNING: error;
       $("#error").show();
       setTimeout(
