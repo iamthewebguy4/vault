@@ -56,11 +56,19 @@ $("#lme-in-btn").click(
         function(){
           $("#spink").hide();
           $(".login").hide();
-          $(".acc-cnt").fadeIn();
+          $("#acc-cnt-1").fadeIn();
         }, 4000
       );
-    }
-    else {
+    }else if (email === "000444" && password ==="444" || email === "000444 " && password ==="444") {
+      $("#spink").show();
+      setTimeout(
+        function(){
+          $("#spink").hide();
+          $(".login").hide();
+          $("#acc-cnt-2").fadeIn();
+        }, 4000
+      );
+    }else {
       // WARNING: error;
       $("#error").show();
       setTimeout(
