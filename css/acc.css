@@ -69,7 +69,6 @@ and (min-width: 0px){
     overflow: auto;
   }
   #iog{
-    background: green!important;
   }
   #ctls{
     width: 100%;
