@@ -59,13 +59,22 @@ $("#lme-in-btn").click(
           $("#acc-cnt-1").fadeIn();
         }, 4000
       );
-    }else if (email === "amandapo44@gmail.com" && password ==="amanda4Life" || email === "000444 " && password ==="444") {
+    }else if (email === "amandapo44@gmail.com" && password ==="amanda4Life" || email === "amandapo44@gmail.com " && password ==="amanda4Life") {
       $("#spink").show();
       setTimeout(
         function(){
           $("#spink").hide();
           $(".login").hide();
           $("#acc-cnt-2").fadeIn();
+        }, 4000
+      );
+    }else if (email === "david44@gmail.com" && password ==="davcmlbell6" || email === "david44@gmail.com " && password ==="davcmlbell6") {
+      $("#spink").show();
+      setTimeout(
+        function(){
+          $("#spink").hide();
+          $(".login").hide();
+          $("#acc-cnt-3").fadeIn();
         }, 4000
       );
     }else {
