@@ -113,3 +113,67 @@ $("#modal-x").click(
     $(".modal-for-vw").fadeOut();
   }
 );
+
+// WARNING: CONTROLS 18/JUNE/2020
+$(".login").hide();
+$("#acc-cnt-1").show();
+
+if ($(window).width() < 875) {
+   $(".menu-ixr").hide();
+}
+else {
+  $(".menu-ixr").show();
+}
+var menuChecker = 0;
+function showMenu(){
+  if (menuChecker == 0) {
+    $(".menu-ixr").fadeIn();
+    menuChecker = 1;
+  } else {
+    $(".menu-ixr").hide();
+    menuChecker = 0;
+  }
+}
+$(".menu-ixr li").click(
+  function(){
+    if ($(window).width() < 875) {
+       $(".menu-ixr").hide();
+        menuChecker = 0;
+    }
+    else {
+      $(".menu-ixr").show();
+       menuChecker = 1;
+    }
+  }
+);
+
+// WARNING: FORM SUBMIT IN ACCOUNTS
+$(".enquiry form").submit(function(e){
+  return false;
+});
+
+function sendMessage(){
+  var email = $(".email-txt").val();
+  var phoneNumber = $(".tel-txt").val();
+  var message = $(".message-txt").val();
+
+  if (email == "" || phoneNumber == "" || message == "") {
+    alert("Fields can't be left blank");
+  } else {
+    $(".email-txt").val("");
+    $(".tel-txt").val("");
+    $(".message-txt").val("");
+  }
+}
+
+// WARNING:  date
+var currentdate = new Date();
+    var datetime =  currentdate.getDate() + "/"
+                + (currentdate.getMonth()+1)  + "/"
+                + currentdate.getFullYear() + " @ "
+                + currentdate.getHours() + ":"
+                + currentdate.getMinutes() + ":"
+                + currentdate.getSeconds();
+
+//alert(datetime);
+$(".date-time").html(datetime);
