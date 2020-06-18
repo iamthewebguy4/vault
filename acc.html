@@ -47,6 +47,8 @@
           </div>
         </form>
     </div>
+
+
     <div class="acc-cnt" id="acc-cnt-1">
       <header>
 
@@ -55,9 +57,9 @@
         <div class="psn">
           <h5 id="nou">Welcome: John Hudson </h5>
           <i class="fa fa-navicon menu-psn"></i>
-
+          <i class="fa fa-bars menu-btn" style="display: none;" onclick="showMenu();"></i>
         </div>
-        <ul id="ixr">
+        <ul id="ixr" class="menu-ixr">
           <li class="profile-btn"> <i class="glyphicon glyphicon-user"></i> Profile</li>
           <li class="contents-btn"> <i class="fa fa-bar-chart"></i> Contents</li>
           <li class="custodial_records-btn"> <i class="fa fa-users"></i> Custodial Records </li>
@@ -131,7 +133,7 @@
                   date and time
                 </span>
                 <span id="nmee">
-                   <small id="lp">2020-05-21 : 15:55:56 pm  </small>
+                   <small id="lp" class="date-time">2020-05-21 : 15:55:56 pm  </small>
                 </span>
               </li>
             </ul>
@@ -170,49 +172,6 @@
 
               </table>
 
-              <table class="table">
-                <thead class="thead-dark">
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
-                    <th scope="col">Handle</th>
-                    <th scope="col">Handle</th>
-                    <th scope="col">Handle</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                    <td>@mdo</td>
-                    <td>@mdo</td>
-                    <td>@mdo</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                    <td>@fat</td>
-                    <td>@fat</td>
-                    <td>@fat</td>
-                    <td>@fat</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
-                    <td>@twitter</td>
-                    <td>@twitter</td>
-                    <td>@twitter</td>
-                  </tr>
-                </tbody>
-              </table>
           </div>
 
 
@@ -365,24 +324,22 @@
               <div class="form-group">
                 <div class="col-sm-6 vb">
                   <label for="emailhere">Email</label>
-                  <input type="email"class="form-control emm" name="emailhere" value="">
+                  <input type="email"class="form-control emm email-txt" name="emailhere" value="" required>
                 </div>
+              </div>
+              <div class="form-group">
                 <div class="col-sm-6 vb vbb">
                   <label for="phonenumber">Contact Number</label>
-                  <input class="form-control"type="tel" name="phonenumber" value="">
+                  <input class="form-control tel-txt" type="tel" name="phonenumber" value="" required>
                 </div>
               </div>
               <div class="form-group form-check">
-                <label for="phonenumber">Contact Number</label>
-                <textarea name="name" rows="8" cols="80" id="txt" class="form-control"></textarea>
+                <label for="phonenumber">Your Message</label>
+                <textarea name="name" rows="8" cols="80" id="txt" class="form-control message-txt" required></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary" onclick="sendMessage();">Submit</button>
             </form>
           </div>
-
-
-
-
 
         </div>
       </div>
@@ -488,7 +445,7 @@
           <i class="fa fa-navicon menu-psn"></i>
 
         </div>
-        <ul id="ixr">
+        <ul id="ixr" class="menu-ixr">
           <li class="profile-btn"> <i class="glyphicon glyphicon-user"></i> Profile</li>
           <li class="contents-btn"> <i class="fa fa-bar-chart"></i> Contents</li>
           <li class="custodial_records-btn"> <i class="fa fa-users"></i> Custodial Records </li>
@@ -562,7 +519,7 @@
                   date and time
                 </span>
                 <span id="nmee">
-                   <small id="lp">2020-05-21 : 15:55:56 pm  </small>
+                   <small id="lp" class="date-time">2020-05-21 : 15:55:56 pm  </small>
                 </span>
               </li>
             </ul>
@@ -711,6 +668,7 @@
 
 
         </div>
+
         <div class="enquiry li">
 
           <div class="iq">
@@ -724,18 +682,20 @@
               <div class="form-group">
                 <div class="col-sm-6 vb">
                   <label for="emailhere">Email</label>
-                  <input type="email"class="form-control emm" name="emailhere" value="">
+                  <input type="email"class="form-control emm email-txt" name="emailhere" value="" required>
                 </div>
+              </div>
+              <div class="form-group">
                 <div class="col-sm-6 vb vbb">
                   <label for="phonenumber">Contact Number</label>
-                  <input class="form-control"type="tel" name="phonenumber" value="">
+                  <input class="form-control tel-txt" type="tel" name="phonenumber" value="">
                 </div>
               </div>
               <div class="form-group form-check">
-                <label for="phonenumber">Contact Number</label>
-                <textarea name="name" rows="8" cols="80" id="txt" class="form-control"></textarea>
+                <label for="phonenumber">Your Message</label>
+                <textarea name="name" rows="8" cols="80" id="txt" class="form-control message-txt"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary" onclick="sendMessage();">Submit</button>
             </form>
           </div>
 
