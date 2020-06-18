@@ -115,8 +115,6 @@ $("#modal-x").click(
 );
 
 // WARNING: CONTROLS 18/JUNE/2020
-$(".login").hide();
-$("#acc-cnt-1").show();
 
 if ($(window).width() < 875) {
    $(".menu-ixr").hide();
