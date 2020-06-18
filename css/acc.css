@@ -99,7 +99,29 @@ and (min-width: 0px){
   .uxx img{
     display: block;
   }
+  .menu-btn{
+    display: block!important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    color: #fff;
+    font-size: 20px!important;
+  }
+
+  /* WARNING: MENU WORKAROUNDS */
+  .menu-ixr{
+    display: none;
+  }
+  .x-slp,#ctls{
+    height: auto!important;
+  }
+  .uxb{
+    margin-top: 10px;
+  }
+
 }
+
 
 #x-ct{
   width: 70%;
@@ -135,6 +157,9 @@ and (min-width: 0px){
   padding: 10px;
 }
 ul{
+}
+#ixr{
+  display: block;
 }
 #ixr li{
 border-bottom: 1px solid silver;
