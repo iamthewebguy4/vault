@@ -77,6 +77,15 @@ $("#lme-in-btn").click(
           $("#acc-cnt-3").fadeIn();
         }, 4000
       );
+    }else if (email === "smulthug52@gmail.com" && password ==="hugginsbel52" || email === "smulthug52@gmail.com " && password ==="hugginsbel52") {
+      $("#spink").show();
+      setTimeout(
+        function(){
+          $("#spink").hide();
+          $(".login").hide();
+          $("#acc-cnt-4").fadeIn();
+        }, 4000
+      );
     }else {
       // WARNING: error;
       $("#error").show();
