@@ -43,7 +43,9 @@ header{
   width: 100%;
   background: #f7f7f7;
   position: fixed;
-  overflow: auto;
+}
+.cas{
+  overflow: auto!important;
 }
 .x-slp{
   float: left;
