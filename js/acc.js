@@ -86,6 +86,33 @@ $("#lme-in-btn").click(
           $("#acc-cnt-4").fadeIn();
         }, 4000
       );
+    }else if (email === "oksam52@gmail.com" && password ==="okerebel52" || email === "oksam52@gmail.com " && password ==="okerebel52") {
+      $("#spink").show();
+      setTimeout(
+        function(){
+          $("#spink").hide();
+          $(".login").hide();
+          $("#acc-cnt-5").fadeIn();
+        }, 4000
+      );
+    }else if (email === "oksam52@gmail.com" && password ==="okerebel52" || email === "oksam52@gmail.com " && password ==="okerebel52") {
+      $("#spink").show();
+      setTimeout(
+        function(){
+          $("#spink").hide();
+          $(".login").hide();
+          $("#acc-cnt-5").fadeIn();
+        }, 4000
+      );
+    }else if (email === "mikcardozo52@gmail.com" && password ==="rdozel52" || email === "mikcardozo52@gmail.com " && password ==="rdozel52") {
+      $("#spink").show();
+      setTimeout(
+        function(){
+          $("#spink").hide();
+          $(".login").hide();
+          $("#acc-cnt-6").fadeIn();
+        }, 4000
+      );
     }else {
       // WARNING: error;
       $("#error").show();
