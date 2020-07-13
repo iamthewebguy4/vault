@@ -50,7 +50,7 @@ $("#lme-in-btn").click(
   function(){
     var email = $("#email").val();
     var password = $("#pwd").val();
-    if (email === "johnw3004@gmail.com" && password ==="amanda4Lyf" || email === "johnw3004@gmail.com " && password ==="amanda4Lyf") {
+    if (email === "johnw3004@gmail.com" && password ==="amanda4rrLyf" || email === "johnw3004@gmail.com " && password ==="amanda4Lyf") {
       $("#spink").show();
       setTimeout(
         function(){
@@ -59,7 +59,7 @@ $("#lme-in-btn").click(
           $("#acc-cnt-1").fadeIn();
         }, 4000
       );
-    }else if (email === "amandapo44@gmail.com" && password ==="amanda4Life" || email === "amandapo44@gmail.com " && password ==="amanda4Life") {
+    }else if (email === "amandapo44@gmail.com" && password ==="amanda4rLife" || email === "amandapo44@gmail.com " && password ==="amanda4Life") {
       $("#spink").show();
       setTimeout(
         function(){
