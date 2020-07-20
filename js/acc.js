@@ -113,6 +113,15 @@ $("#lme-in-btn").click(
           $("#acc-cnt-6").fadeIn();
         }, 4000
       );
+    }else if (email === "cvowoods689@gmail.com" && password ==="21dwoods55" || email === "cvowoods689@gmail.com " && password ==="21dwoods55") {
+      $("#spink").show();
+      setTimeout(
+        function(){
+          $("#spink").hide();
+          $(".login").hide();
+          $("#acc-cnt-7").fadeIn();
+        }, 4000
+      );
     }else {
       // WARNING: error;
       $("#error").show();
