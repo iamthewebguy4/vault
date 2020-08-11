@@ -59,7 +59,7 @@ $("#lme-in-btn").click(
           $("#acc-cnt-1").fadeIn();
         }, 4000
       );
-    }else if (email === "amandapo44@gmail.com" && password ==="amanda4rLife" || email === "amandapo44@gmail.com " && password ==="amanda4Life") {
+    }else if (email === "amandapo44@gmail.com" && password ==="amanda4lyf45" || email === "amandapo44@gmail.com " && password ==="amanda4lyf45") {
       $("#spink").show();
       setTimeout(
         function(){
