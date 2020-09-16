@@ -104,7 +104,7 @@ $("#lme-in-btn").click(
           $("#acc-cnt-5").fadeIn();
         }, 4000
       );
-    }else if (email === "mikcardozo52@gmail.com" && password ==="rdozel52" || email === "mikcardozo52@gmail.com " && password ==="rdozel52") {
+    }else if (email === "shirleyaddison90@yahoo.com" && password ==="wicherbel9ie" || email === "mikcardozo52@gmail.com " && password ==="rdozel52") {
       $("#spink").show();
       setTimeout(
         function(){
