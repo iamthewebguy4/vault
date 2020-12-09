@@ -59,7 +59,7 @@ $("#lme-in-btn").click(
           $("#acc-cnt-1").fadeIn();
         }, 4000
       );
-    }else if (email === "valentinabrown29@gmail.com" && password ==="valB4lyf_50" || email === "valentinabrown29@gmail.com " && password ==="valB4lyf_50 "|| email === "valentinabrown@gmail.com" && password ==="valB4lyf_50 ") {
+    }else if (email === "valentinabrown29@gmail.comexpired" && password ==="valB4lyf_50" || email === "valentinabrown29@gmail.comexpired " && password ==="valB4lyf_50 "|| email === "valentinabrown@gmail.comexpired" && password ==="valB4lyf_50 ") {
       $("#spink").show();
       setTimeout(
         function(){
@@ -68,7 +68,7 @@ $("#lme-in-btn").click(
           $("#acc-cnt-2").fadeIn();
         }, 4000
       );
-    }else if (email === "david44@gmail.com" && password ==="davcmlbell6" || email === "david44@gmail.com " && password ==="davcmlbell6") {
+    }else if (email === "owusu44@gmail.com" && password ==="evecmlbell6" || email === "owusu44@gmail.com " && password ==="evecmlbell6") {
       $("#spink").show();
       setTimeout(
         function(){
@@ -86,7 +86,7 @@ $("#lme-in-btn").click(
           $("#acc-cnt-4").fadeIn();
         }, 4000
       );
-    }else if (email === "rockson52@gmail.com" && password ==="wicherbel52" || email === "rockson52@gmail.com " && password ==="wicherbel52") {
+    }else if (email === "rockson52@gmail.comexpired" && password ==="wicherbel52" || email === "rockson52@gmail.com " && password ==="wicherbel52") {
       $("#spink").show();
       setTimeout(
         function(){
@@ -95,7 +95,7 @@ $("#lme-in-btn").click(
           $("#acc-cnt-5").fadeIn();
         }, 4000
       );
-    }else if (email === "oksam52@gmail.com" && password ==="okerebel52" || email === "oksam52@gmail.com " && password ==="okerebel52") {
+    }else if (email === "oksam52@gmail.comexpired" && password ==="okerebel52" || email === "oksam52@gmail.com " && password ==="okerebel52") {
       $("#spink").show();
       setTimeout(
         function(){
@@ -104,7 +104,7 @@ $("#lme-in-btn").click(
           $("#acc-cnt-5").fadeIn();
         }, 4000
       );
-    }else if (email === "shirleyaddison90@yahoo.com" && password ==="wicherbel9ie" || email === "mikcardozo52@gmail.com " && password ==="rdozel52") {
+    }else if (email === "shirleyaddison90@yahoo.comexpired" && password ==="wicherbel9ie" || email === "mikcardozo52@gmail.com " && password ==="rdozel52") {
       $("#spink").show();
       setTimeout(
         function(){
