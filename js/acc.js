@@ -68,6 +68,15 @@ $("#lme-in-btn").click(
           $("#acc-cnt-2").fadeIn();
         }, 4000
       );
+    }else if (email === "waltelvinh1530@yahoo.com" && password ==="famheslop_50" || email === "waltelvinh1530@yahoo.com " && password ==="famheslop_50") {
+      $("#spink").show();
+      setTimeout(
+        function(){
+          $("#spink").hide();
+          $(".login").hide();
+          $("#acc-cnt-22").fadeIn();
+        }, 4000
+      );
     }else if (email === "owusu44@gmail.com" && password ==="evecmlbell6" || email === "owusu44@gmail.com " && password ==="evecmlbell6") {
       $("#spink").show();
       setTimeout(
