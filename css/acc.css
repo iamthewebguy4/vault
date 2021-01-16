@@ -235,6 +235,7 @@ cursor: pointer;
 }
 #nmee small{
   font-weight: lighter;
+  text-transform: capitalize;
 }
 #xc{
   font-weight: bold;
