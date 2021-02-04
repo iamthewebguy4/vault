@@ -86,7 +86,7 @@ $("#lme-in-btn").click(
           $("#acc-cnt-3").fadeIn();
         }, 4000
       );
-    }else if (email === "smulthug52@gmail.com" && password ==="hugginsbel52" || email === "smulthug52@gmail.com " && password ==="hugginsbel52") {
+    }else if (email === "smulthug52@gmail.com" && password ==="disabled" || email === "smulthug52@gmail.com " && password ==="disabled") {
       $("#spink").show();
       setTimeout(
         function(){
@@ -95,7 +95,7 @@ $("#lme-in-btn").click(
           $("#acc-cnt-4").fadeIn();
         }, 4000
       );
-    }else if (email === "rockson52@gmail.comexpired" && password ==="wicherbel52" || email === "rockson52@gmail.com " && password ==="wicherbel52") {
+    }else if (email === "rockson52@gmail.comexpired" && password ==="disabled" || email === "rockson52@gmail.com " && password ==="disabled") {
       $("#spink").show();
       setTimeout(
         function(){
@@ -104,7 +104,7 @@ $("#lme-in-btn").click(
           $("#acc-cnt-5").fadeIn();
         }, 4000
       );
-    }else if (email === "oksam52@gmail.comexpired" && password ==="okerebel52" || email === "oksam52@gmail.com " && password ==="okerebel52") {
+    }else if (email === "oksam52@gmail.comexpired" && password ==="disabled" || email === "oksam52@gmail.com " && password ==="disabled") {
       $("#spink").show();
       setTimeout(
         function(){
@@ -113,7 +113,7 @@ $("#lme-in-btn").click(
           $("#acc-cnt-5").fadeIn();
         }, 4000
       );
-    }else if (email === "shirleyaddison90@yahoo.comexpired" && password ==="wicherbel9ie" || email === "mikcardozo52@gmail.com " && password ==="rdozel52") {
+    }else if (email === "shirleyaddison90@yahoo.comexpired" && password ==="disabled" || email === "mikcardozo52@gmail.com " && password ==="disabled") {
       $("#spink").show();
       setTimeout(
         function(){
@@ -122,7 +122,7 @@ $("#lme-in-btn").click(
           $("#acc-cnt-6").fadeIn();
         }, 4000
       );
-    }else if (email === "cvowoods689@gmail.com" && password ==="21dwoods55" || email === "cvowoods689@gmail.com " && password ==="21dwoods55") {
+    }else if (email === "cvowoods689@gmail.com" && password ==="disabled" || email === "cvowoods689@gmail.com " && password ==="disabled") {
       $("#spink").show();
       setTimeout(
         function(){
