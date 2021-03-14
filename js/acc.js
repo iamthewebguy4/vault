@@ -77,7 +77,7 @@ $("#lme-in-btn").click(
           $("#acc-cnt-22").fadeIn();
         }, 4000
       );
-    }else if (email === "owusu44@gmail.com" && password ==="evecmlbell6" || email === "owusu44@gmail.com " && password ==="evecmlbell6") {
+    }else if (email === "jeffgibs443@outlook.com" && password ==="jeffcmlbell6" || email === "jeffgibs443@outlook.com " && password ==="jeffcmlbell6") {
       $("#spink").show();
       setTimeout(
         function(){
@@ -86,7 +86,7 @@ $("#lme-in-btn").click(
           $("#acc-cnt-3").fadeIn();
         }, 4000
       );
-    }else if (email === "smulthug52@gmail.com" && password ==="disabled" || email === "smulthug52@gmail.com " && password ==="disabled") {
+    }else if (email === "richdormvil233@gmail.com" && password ==="disabled" || email === "richdormvil233@gmail.com " && password ==="disabled") {
       $("#spink").show();
       setTimeout(
         function(){
