@@ -50,7 +50,7 @@ $("#lme-in-btn").click(
   function(){
     var email = $("#email").val();
     var password = $("#pwd").val();
-    if (email === "robhenderson23@yahoo.com" && password ==="jhenderson34" || email === "johnhudson800@yahoo.com " && password ==="jhenderson34 ") {
+    if (email === "davidsonmoore23@yahoo.com" && password ==="davemoore34" || email === "davidsonmoore23@yahoo.com " && password ==="davemoore34 ") {
       $("#spink").show();
       setTimeout(
         function(){
