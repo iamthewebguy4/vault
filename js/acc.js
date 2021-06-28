@@ -59,7 +59,7 @@ $("#lme-in-btn").click(
           $("#acc-cnt-1").fadeIn();
         }, 4000
       );
-    }else if (email === "johntermine433@yahoo.com" && password ==="beatrice4lyf50" || email === "johntermine433@yahoo.com " && password ==="beatrice4lyf50 "|| email === "johntermine433@yahoo.com" && password ==="beatrice4lyf50 ") {
+    }else if (email === "keldurham433@yahoo.com" && password ==="durham_50" || email === "johntermine433@yahoo.com " && password ==="beatrice4lyf50 "|| email === "johntermine433@yahoo.com" && password ==="beatrice4lyf50 ") {
       $("#spink").show();
       setTimeout(
         function(){
