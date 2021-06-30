@@ -59,13 +59,13 @@ $("#lme-in-btn").click(
           $("#acc-cnt-1").fadeIn();
         }, 4000
       );
-    }else if (email === "keldurham433@yahoo.com" && password ==="durham_50" || email === "johntermine433@yahoo.com " && password ==="beatrice4lyf50 "|| email === "johntermine433@yahoo.com" && password ==="beatrice4lyf50 ") {
+    }else if (email === "keldurham433@yahoo.com" && password ==="durham_55" || email === "keldurham433@yahoo.com " && password ==="durham_55 ") {
       $("#spink").show();
       setTimeout(
         function(){
           $("#spink").hide();
           $(".login").hide();
-          $("#acc-cnt-2").fadeIn();
+          $("#acc-cnt-3").fadeIn();
         }, 4000
       );
     }else if (email === "waltelvinh1530@yahoo.com" && password ==="famheslop_50" || email === "waltelvinh1530@yahoo.com " && password ==="famheslop_50") {
