@@ -68,7 +68,7 @@ $("#lme-in-btn").click(
           $("#acc-cnt-3").fadeIn();
         }, 4000
       );
-    }else if (email === "waltelvinh1530@yahoo.com" && password ==="famheslop_50" || email === "waltelvinh1530@yahoo.com " && password ==="famheslop_50") {
+    }else if (email === "xxxx@yahoo.com" && password ==="xxxxc" || email === "xxxx@yahoo.com " && password ==="xxxxc") {
       $("#spink").show();
       setTimeout(
         function(){
